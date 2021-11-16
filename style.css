@@ -1,0 +1,43 @@
+@font-face {
+  font-family: ff-forward;
+  src: url(assets/fonts/FFFFORWA.TTF);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 15vh;
+  left: 0.5vw;
+}
+
+#startBtn {
+  background-color: orange;
+  color: #777777;
+  border: 2px solid #777777;
+  font-family: ff-forward;
+}
+
+#startBtn:hover {
+  background-color: #777777;
+  color: orange;
+  border: 2px solid orange;
+}
+
+#reset {
+  background-color: orange;
+  color: #777777;
+  border: 2px solid #777777;
+  font-family: ff-forward;
+}
+
+#reset:hover {
+  background-color: #777777;
+  color: orange;
+  border: 2px solid orange;
+}
