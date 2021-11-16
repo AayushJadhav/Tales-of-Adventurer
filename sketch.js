@@ -125,8 +125,8 @@ function preload() {
     );
 
     //fonts*
-    fff_forward = loadFont("assets/fonts/FFFFORWA.ttf");
-    backTo1982 = loadFont("assets/fonts/BACKTO1982.ttf");
+    fff_forward = loadFont("assets/fonts/FFFFORWA.TTF");
+    backTo1982 = loadFont("assets/fonts/BACKTO1982.TTF");
 
     //sound effect*
     coin_sound_effect = loadSound("assets/sounds/coin_effect.wav");
